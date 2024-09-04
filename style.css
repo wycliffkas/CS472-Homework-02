@@ -1,0 +1,94 @@
+.container {
+  border: 1px solid rgb(141, 193, 141);;
+  margin: 40px;
+}
+
+#heading {
+  font-weight: bold;
+}
+
+.formWrapper {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.col {
+  flex: 1;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.input {
+  width: 400px;
+  height: 25px;
+}
+
+select {
+  width: 408px;
+  height: 30px;
+}
+
+textarea {
+  width: 402px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+
+#header {
+  padding: 5px 10px;
+  background-color: rgb(141, 193, 141);
+}
+
+.menu {
+  border: none;
+  background: transparent;
+  width: 101px;
+  margin-left: 20px;
+}
+
+select:focus {
+  outline: none;
+  border: none;
+}
+
+#footer {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #d8d2d2;
+}
+
+.required {
+  color: red;
+}
+
+.button {
+  padding: 10px 40px;
+  color: #ffffff;
+  background: rgb(141, 193, 141);
+  border: none;
+}
+
+input[type="date"] {
+  width: 403px;
+  height: 26px;
+}
+
+.paymentType {
+  width: 413px;
+}
+
+label {
+  font-weight: bold;
+}

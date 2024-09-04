@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="header">
+      <span id="heading">Workshop Registration</span>
+      <select class="menu">
+        <option>More Actions</option>
+        <option>Save</option>
+      </select>
+    </div>
+
+
+
+    <div class="formWrapper">
+      <div class="col">
+        <h1><u>Register now while seats are available!</u></h1>
+
+        <div class="item">
+          <label>First Name <span class="required">*</span></label>
+          <input type="text" name="firstName" class="input">
+        </div>
+
+        <div class="item">
+          <label>Last Name <span class="required">*</span> </label>
+          <input type="text" name="lastName" class="input">
+        </div>
+
+        <div class="item">
+          <label>CompanyInstitution <span class="required">*</span></label>
+          <input type="text" name="company" class="input">
+        </div>
+
+        <div class="item">
+          <label>Address <span class="required">*</span></label>
+          <textarea></textarea>
+        </div>
+
+        <div class="item">
+          <label>City</label>
+          <input type="text" name="city" class="input">
+        </div>
+
+        <div class="item">
+          <label>State/Province/Region</label>
+          <select name="state">
+            <option value="Iowa">Iowa</option>
+            <option value="Texas">Iowa</option>
+          </select>
+        </div>
+
+        <div class="item">
+          <label>Country</label>
+          <select name="country">
+            <option value="usa">United States</option>
+            <option value="mexico">Mexico</option>
+            <option value="canada">Canada</option>
+          </select>
+        </div>
+
+        <div class="item">
+          <label>Email <span class="required">*</span></label>
+          <input type="email" name="email" class="input">
+        </div>
+
+        <div class="item">
+          <label>Phone Number <span>*</span></label>
+          <input type="tel" name="phone" class="input">
+        </div>
+
+      </div>
+
+
+
+      <div class="col">
+        <h1><u>Lunch</u></h1>
+
+        <div class="item">
+          <label>Meal Preference</label>
+          <select name="meal">
+            <option value="vegetarian">vegetarian</option>
+            <option value="non-vegetarian">non-vegetarian</option>
+          </select>
+        </div>
+
+        <h1><u>Payment Details</u></h1>
+
+        <div class="item">
+          <label>Payment Mode</label>
+          <div class="paymentType">
+            <input type="checkbox" name="payment" value="Cash">
+            <label>Cash</label> <br>
+            <input type="checkbox" name="payment" value="Cheque">
+            <label>Cheque</label> <br>
+            <input type="checkbox" name="payment" value="Demand Draft">
+            <label>Demand Draft</label> <br>
+          </div>
+        </div>
+
+        <div class="item">
+          <label>DD/Cheque No.</label>
+          <input type="text" name="cheque" class="input">
+        </div>
+
+        <div class="item">
+          <label>Drawn On(Bank Name)</label>
+          <input type="text" name="bank" class="input">
+        </div>
+
+        <div class="item">
+          <label>Payable at</label>
+          <input type="date" name="paymentDate">
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer">
+      <input class="button" type="submit" name="submit" value="Submit">
+      <input class="button" type="reset" name="submit" value="Reset">
+    </div>
+  </div>
+
+  <a href="">
+    <img src="./images/css-checker.png" width="400" alt="css checker">
+  </a>
+
+  <a href="">
+    <img src="./images/html-checker.png" width="400" alt="html checker">
+  </a>
+</body>
+
+</html>
